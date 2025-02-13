@@ -191,12 +191,12 @@ public class CaesarCipher {
 
                 case 4:
                     try {
-                        // Пример частот для русского языка (упрощенно)
+                       
                         Map<Character, Double> russianFreq = new HashMap<>();
                         russianFreq.put('о', 0.09);
                         russianFreq.put('е', 0.08);
                         russianFreq.put('а', 0.07);
-                        // Добавьте другие частоты...
+                        
 
                         System.out.println("Введите входной файл:");
                         String input = scanner.nextLine();
